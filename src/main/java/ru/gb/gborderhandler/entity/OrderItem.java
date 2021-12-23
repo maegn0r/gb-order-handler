@@ -35,4 +35,14 @@ public class OrderItem {
         this.productId = productDto.getId();
         this.productName = productDto.getTitle();
     }
+
+    @Override
+    public String toString() {
+        return "OrderItem{" +
+                "id=" + id +
+                ", productId=" + productId +
+                ", productName='" + productName + '\'' +
+                ", count=" + count +
+                '}';
+    }
 }

@@ -14,7 +14,7 @@ public class OrderItemDto {
     private String productName;
     private int count;
 
-    public OrderItemDto(OrderItem orderItem){
+    public OrderItemDto(OrderItem orderItem) {
         this.id = orderItem.getId();
         this.productId = orderItem.getProductId();
         this.productName = orderItem.getProductName();
